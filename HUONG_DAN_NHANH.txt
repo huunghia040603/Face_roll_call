@@ -1,0 +1,48 @@
+═══════════════════════════════════════════════════════════════
+  HƯỚNG DẪN NHANH - CHẠY FRONTEND
+═══════════════════════════════════════════════════════════════
+
+✅ BACKEND ĐÃ CHẠY THÀNH CÔNG!
+   → http://localhost:8000
+   → http://localhost:8000/docs (API Documentation)
+
+📱 ĐỂ CHẠY FRONTEND (Giao diện Web):
+
+CÁCH 1: Cài đặt Node.js qua Homebrew (Khuyến nghị)
+─────────────────────────────────────────────────────
+1. Mở Terminal và chạy:
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+2. Sau khi cài Homebrew xong, chạy:
+   brew install node
+
+3. Kiểm tra:
+   node --version
+   npm --version
+
+4. Chạy frontend:
+   cd /Users/huunghiakhach/Documents/Face_roll_call
+   npm install
+   npm run dev
+
+CÁCH 2: Tải Node.js trực tiếp (Dễ hơn)
+─────────────────────────────────────────────────────
+1. Truy cập: https://nodejs.org/
+2. Tải phiên bản LTS (khuyến nghị)
+3. Cài đặt file .pkg đã tải
+4. Mở Terminal mới và chạy:
+   cd /Users/huunghiakhach/Documents/Face_roll_call
+   npm install
+   npm run dev
+
+═══════════════════════════════════════════════════════════════
+Sau khi chạy npm run dev, mở trình duyệt:
+→ http://localhost:3000
+═══════════════════════════════════════════════════════════════
+
+⚠️ LƯU Ý: Để sử dụng nhận diện khuôn mặt, cần cài thêm:
+   brew install cmake
+   python3 -m pip install face-recognition
+
+═══════════════════════════════════════════════════════════════
+
